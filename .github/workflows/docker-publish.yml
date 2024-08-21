@@ -25,7 +25,7 @@ env:
 jobs:
 
   build:
-    uses: wkwok-learn/cicd-ch03-integrate/.github/workflows/app-python.yml@main
+    uses: wkwok-learn/cicd-ch03-integrate/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       
