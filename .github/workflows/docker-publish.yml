@@ -23,7 +23,7 @@ env:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    uses: cicd-ch03-integrate/.github/workflows/app-python.yml@main
     permissions:
       contents: read
       
